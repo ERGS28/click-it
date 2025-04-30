@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .menu-buttons button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .menu-buttons button:hover {
+    background-color: #2980b9;
+  }
+  
+  #game-ui {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  #info {
+    padding: 10px;
+    background-color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #game-container {
+    width: 100%;
+    height: calc(100% - 50px);
+    position: relative;
+    background-color: #000;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .game-back-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .game-back-btn:hover {
+    background-color: #c0392b;
+  }
+  

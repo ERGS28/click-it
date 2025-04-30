@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juego de la Bola</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- MENÚ PRINCIPAL -->
+  <div id="menu" class="centered">
+    <h1>🎯 Juego de la Bola</h1>
+    <p><strong>Desarrollado por ROMAN</strong></p>
+    <div class="menu-buttons">
+      <button id="start-btn">Iniciar Juego</button>
+      <button id="about-btn">Acerca de</button>
+    </div>
+  </div>
+
+  <!-- SECCIÓN ACERCA DE -->
+  <div id="about" class="hidden centered">
+    <h2>Acerca del Juego</h2>
+    <p>Este juego fue creado por <strong>ROMAN</strong>.</p>
+    <p>Haz clic en las bolas para avanzar de nivel, evita los obstáculos y completa los 10 niveles.</p>
+    <button id="back-menu">Volver al Menú</button>
+  </div>
+
+  <!-- INTERFAZ DE JUEGO -->
+  <div id="game-ui" class="hidden">
+    <div id="info"></div>
+    <div id="game-container"></div>
+    <button id="back-to-menu" class="game-back-btn">Volver al Menú</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
